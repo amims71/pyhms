@@ -18,9 +18,9 @@ def GET():
     global userbox,passbox,error
     S1=userbox.get()
     S2=passbox.get()
-    if(S1=='bhaviya' and S2=='1234567'):
+    if(S1=='amim' and S2=='123'):
         menu()
-    elif(S1=='sejal taneja' and S2=='btech'):
+    elif(S1=='suchona' and S2=='123'):
         menu()
     else:
         error=tkinter.Label(bottomframe,text="Wrong Id / Password \n TRY AGAIN",fg="red",font="bold")
